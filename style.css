@@ -6,7 +6,6 @@
 
 body {
   background-image: url(https://wallpaperaccess.com/full/2000058.jpg);
-  background-color: rgb(223, 223, 223);
   font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
@@ -84,4 +83,29 @@ h1 {
 .hvr-ripple-out:active:before {
   -webkit-animation-name: hvr-ripple-out;
   animation-name: hvr-ripple-out;
+}
+
+/* Game.html*/
+h2 {
+  font-size: 3.2rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+.choice-box {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.2rem;
+  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  background-color: rgb(243, 243, 243);
+}
+.choice-text {
+  padding: 0.1rem;
+}
+
+.choice-box:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(67, 77, 82, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 120ms;
 }
