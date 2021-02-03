@@ -28,7 +28,7 @@ h1 {
   color: #1d3365;
 }
 
-/* BUTTONS */
+/* btn */
 .btn {
   font-size: 1.4rem;
   padding: 0.5rem 0;
@@ -41,10 +41,47 @@ h1 {
   background-color: rgb(255, 255, 255);
 }
 
-.btn:hover {
-  cursor: pointer;
+/* Ripple Out Button Effect*/
+@-webkit-keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
 }
-
-.btn[disabled]:hover {
-  cursor: not-allowed;
+@keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+.hvr-ripple-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-ripple-out:before {
+  content: "";
+  position: absolute;
+  border: #ffffff solid 6px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.hvr-ripple-out:hover:before,
+.hvr-ripple-out:focus:before,
+.hvr-ripple-out:active:before {
+  -webkit-animation-name: hvr-ripple-out;
+  animation-name: hvr-ripple-out;
 }
