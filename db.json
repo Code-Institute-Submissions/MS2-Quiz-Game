@@ -1,5 +1,75 @@
-{"numberFacts": 
-    [{"42": "the number of gallons that one barrel of petroleum holds"}, 
-    
-    {"62": "the number which Sigmund Freud has an irrational fear of"}]}
-    
+{
+  "results": [
+    {
+      "category": "Numbers",
+      "type": "multiple",
+      "question": "the number of holes in a stipulated round of golf",
+      "correct_answer": 18,
+      "incorrect_answers": [21, 15, 30]
+    },
+    {
+      "category": "Numbers",
+      "type": "multiple",
+      "question": "the number of years in 235 lunations",
+      "correct_answer": 19,
+      "incorrect_answers": [25, 71, 52]
+    },
+    {
+      "category": "Numbers",
+      "type": "multiple",
+      "question": "the number of personality types in the Myers-Briggs classification system",
+      "correct_answer": 16,
+      "incorrect_answers": [24, 15, 72]
+    },
+    {
+      "category": "Numbers",
+      "type": "multiple",
+      "question": "the number of sides on the Canadian one-dollar coin (a hendecagon, an eleven-sided polygon)",
+      "correct_answer": 11,
+      "incorrect_answers": [15, 12, 20]
+    },
+    {
+      "category": "Numbers",
+      "type": "multiple",
+      "question": "the length in miles of a train of boxcars that can be filled from recycled paper in the USA every day",
+      "correct_answer": 15,
+      "incorrect_answers": [20, 35, 8]
+    },
+    {
+      "category": "Numbers",
+      "type": "multiple",
+      "question": "the number of years in 235 lunations",
+      "correct_answer": 19,
+      "incorrect_answers": [15, 22, 24]
+    },
+    {
+      "category": "Numbers",
+      "type": "multiple",
+      "question": "the number of levels in hell in the Chinese mythos",
+      "correct_answer": 18,
+      "incorrect_answers": [5, 9, 14]
+    },
+    {
+      "category": "Numbers",
+      "type": "multiple",
+      "question": "the final year a person is a teenager",
+      "correct_answer": 19,
+      "incorrect_answers": [17, 18, 21]
+    },
+    {
+      "category": "Numbers",
+      "type": "multiple",
+      "question": "the number of pieces the body of Osiris was torn into by his fratricidal brother Set",
+      "correct_answer": 14,
+      "incorrect_answers": [21, 12, 41]
+    },
+    {
+      "category": "Numbers",
+      "type": "multiple",
+      "question": "the number of Provinces in Canada",
+      "correct_answer": 10,
+      "incorrect_answers": [7, 9, 11]
+    }
+  ]
+}
+
