@@ -1,11 +1,5 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+{"numberFacts": 
+    [{"42": "the number of gallons that one barrel of petroleum holds"}, 
+    
+    {"62": "the number which Sigmund Freud has an irrational fear of"}]}
+    
