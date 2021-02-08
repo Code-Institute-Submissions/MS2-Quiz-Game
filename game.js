@@ -1,44 +1,18 @@
-const question = document.querySelector("#question");
-const choices = Array.from(document.querySelectorAll(".choice-text"));
-console.log(choices);
+document.querySelector(".Get-Quote").addEventListener("click", GetAPI);
 
-let currentQuestion = {};
-let acceptingAnswers = false;
-let score = 0;
-let questionCounter = 0;
-let availableQuesions = [];
+function GetAPI(e) {
+  const xhr = new XMLHttpRequest();
 
-let questions = [
-  {
-    question: "what is the capital of brazil?",
-    choice1: "buenos aires",
-    choice2: "sao paolo",
-    choice3: "brasilia",
-    choice4: "rio de janeiro",
-    answer: 2,
-  },
-  {
-    question: "what is the root square of 144?",
-    choice1: "11'>",
-    choice2: "12'>",
-    choice3: "13'>",
-    choice4: "14",
-    answer: 1,
-  },
-  {
-    question: " what is the drinking aga in portugal",
-    choice1: "18;",
-    choice2: "21",
-    choice3: "16",
-    choice4: "50",
-    answer: 1,
-  },
-  {
-    question: "what color is not on the ecuador flag",
-    choice1: "red",
-    choice2: "green",
-    choice3: "blue",
-    choice4: "yellow",
-    answer: 1,
-  },
-];
+  xhr.open("GET", "http://numbersapi.com/random/trivia"), true;
+
+  xhr.onload = function () {
+    if (this.status === 200) {
+      const response = this.responseText;
+      console.log(response);
+    }
+  };
+
+  xhr.send();
+
+  e.preventDefault();
+}
