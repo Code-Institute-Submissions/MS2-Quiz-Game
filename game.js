@@ -30,74 +30,92 @@ let availableQuesions = [];
 
 let questions = [
     {
-      "category": "Numbers",
-      "type": "multiple",
-      "question": "the number of holes in a stipulated round of golf",
-      "correct_answer": 18,
-      "incorrect_answers": [21, 15, 30]
+      question: "the number of holes in a stipulated round of golf",
+      correct_answer: 1,
+      option1: 18,
+      option2: 5,
+      option3: 7,
+      option4: 9,
     },
     {
-      "category": "Numbers",
-      "type": "multiple",
-      "question": "the number of years in 235 lunations",
-      "correct_answer": 19,
-      "incorrect_answers": [25, 71, 52]
+     
+      question: "the number of years in 235 lunations",
+       correct_answer: 1,
+      option1: 18,
+      option2: 5,
+      option3: 7,
+      option4: 9,
     },
     {
-      "category": "Numbers",
-      "type": "multiple",
-      "question": "the number of personality types in the Myers-Briggs classification system",
-      "correct_answer": 16,
-      "incorrect_answers": [24, 15, 72]
+     
+      question: "the number of personality types in the Myers-Briggs classification system",
+       correct_answer: 1,
+      option1: 18,
+      option2: 5,
+      option3: 7,
+      option4: 9,
     },
     {
-      "category": "Numbers",
-      "type": "multiple",
-      "question": "the number of sides on the Canadian one-dollar coin (a hendecagon, an eleven-sided polygon)",
-      "correct_answer": 11,
-      "incorrect_answers": [15, 12, 20]
+    
+      question: "the number of sides on the Canadian one-dollar coin (a hendecagon, an eleven-sided polygon)",
+       correct_answer: 1,
+      option1: 18,
+      option2: 5,
+      option3: 7,
+      option4: 9,
     },
     {
-      "category": "Numbers",
-      "type": "multiple",
-      "question": "the length in miles of a train of boxcars that can be filled from recycled paper in the USA every day",
-      "correct_answer": 15,
-      "incorrect_answers": [20, 35, 8]
+      
+      question: "the length in miles of a train of boxcars that can be filled from recycled paper in the USA every day",
+       correct_answer: 1,
+      option1: 18,
+      option2: 5,
+      option3: 7,
+      option4: 9,
     },
     {
-      "category": "Numbers",
-      "type": "multiple",
-      "question": "the number of years in 235 lunations",
-      "correct_answer": 19,
-      "incorrect_answers": [15, 22, 24]
+      
+      question: "the number of years in 235 lunations",
+      correct_answer: 1,
+      option1: 18,
+      option2: 5,
+      option3: 7,
+      option4: 9,
     },
     {
-      "category": "Numbers",
-      "type": "multiple",
-      "question": "the number of levels in hell in the Chinese mythos",
-      "correct_answer": 18,
-      "incorrect_answers": [5, 9, 14]
+      
+      question: "the number of levels in hell in the Chinese mythos",
+       correct_answer: 1,
+      option1: 18,
+      option2: 5,
+      option3: 7,
+      option4: 9,
     },
     {
-      "category": "Numbers",
-      "type": "multiple",
-      "question": "the final year a person is a teenager",
-      "correct_answer": 19,
-      "incorrect_answers": [17, 18, 21]
+      
+      question: "the final year a person is a teenager",
+      correct_answer: 1,
+      option1: 18,
+      option2: 5,
+      option3: 7,
+      option4: 9,
     },
     {
-      "category": "Numbers",
-      "type": "multiple",
-      "question": "the number of pieces the body of Osiris was torn into by his fratricidal brother Set",
-      "correct_answer": 14,
-      "incorrect_answers": [21, 12, 41]
+      
+      question: "the number of pieces the body of Osiris was torn into by his fratricidal brother Set",
+      correct_answer: 1,
+      option1: 18,
+      option2: 5,
+      option3: 7,
+      option4: 9,
     },
     {
-      "category": "Numbers",
-      "type": "multiple",
-      "question": "the number of Provinces in Canada",
-      "correct_answer": 10,
-      "incorrect_answers": [7, 9, 11]
+      question: "the number of Provinces in Canada",
+       correct_answer: 1,
+      option1: 18,
+      option2: 5,
+      option3: 7,
+      option4: 9,
     }
   ];
 //Constants
@@ -111,7 +129,7 @@ startGame = () => {
     console.log(availableQuesions);
     getNewQuestion();
 };
-//Redirect to End page when there ae no more questions //
+//Redirect to End page when there are no more questions //
     getNewQuestion = () => {
     if(availableQuesions.length === 0 || questionCounter > MAX_QUESTIONS){
         return window.location.assign("/end.html")
@@ -130,11 +148,12 @@ startGame = () => {
     //show available answers in box//
    choices.forEach((choice) => {
         const number = choice.dataset['number'];
-        choice.innerText = currentQuestion['choice' + number];
+        choice.innerText = currentQuestion['option' + number];
+    
     });
     //show available answers in box//
 
-    }
+    };
     
 startGame()
   
