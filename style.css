@@ -6,7 +6,6 @@
 
 body {
   background-image: url(https://wallpaperaccess.com/full/2000058.jpg);
-  background-color: rgb(223, 223, 223);
   font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
@@ -28,7 +27,7 @@ h1 {
   color: #1d3365;
 }
 
-/* BUTTONS */
+/* btn */
 .btn {
   font-size: 1.4rem;
   padding: 0.5rem 0;
@@ -41,10 +40,83 @@ h1 {
   background-color: rgb(255, 255, 255);
 }
 
-.btn:hover {
-  cursor: pointer;
+/* Ripple Out Button Effect*/
+@-webkit-keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+@keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+.hvr-ripple-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-ripple-out:before {
+  content: "";
+  position: absolute;
+  border: #ffffff solid 6px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.hvr-ripple-out:hover:before,
+.hvr-ripple-out:focus:before,
+.hvr-ripple-out:active:before {
+  -webkit-animation-name: hvr-ripple-out;
+  animation-name: hvr-ripple-out;
 }
 
-.btn[disabled]:hover {
-  cursor: not-allowed;
+/* Game.html*/
+.Get-Quote {
+  margin: auto;
+  display: flex;
+  margin-bottom: 3rem;
+  width: 20%;
+  font-size: 1.7rem;
+  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  background-color: rgb(243, 243, 243);
+}
+
+h2 {
+  font-size: 3.2rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+.choice-box {
+  margin: auto;
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 40%;
+  font-size: 1.2rem;
+  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  background-color: rgb(243, 243, 243);
+}
+.choice-text {
+  padding: 0.1rem;
+}
+
+.choice-box:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(67, 77, 82, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 120ms;
 }
