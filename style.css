@@ -15,12 +15,10 @@ body {
   width: 100vh;
   margin: 0 auto;
   max-width: 80rem;
+  padding: 1rem;
 }
 
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
+
 
 h1 {
   font-size: 4.8rem;
@@ -101,17 +99,20 @@ h2 {
   margin-bottom: 3rem;
   font-weight: 500;
 }
+
 .choice-box {
   margin: auto;
-  display: flex;
+  display: inline-block;
   margin-bottom: 0.5rem;
-  width: 40%;
-  font-size: 1.2rem;
+  width: 15%;
+  font-size: 1.8rem;
   border: 0.1rem solid rgb(86, 165, 235, 0.25);
   background-color: rgb(243, 243, 243);
+  margin-right: 30px;
 }
 .choice-text {
   padding: 0.1rem;
+  width: 100%;
 }
 
 .choice-box:hover {
