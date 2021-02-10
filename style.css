@@ -84,15 +84,7 @@ h1 {
 }
 
 /* Game.html*/
-.Get-Quote {
-  margin: auto;
-  display: flex;
-  margin-bottom: 3rem;
-  width: 20%;
-  font-size: 1.7rem;
-  border: 0.1rem solid rgb(86, 165, 235, 0.25);
-  background-color: rgb(243, 243, 243);
-}
+
 
 h2 {
   font-size: 3.2rem;
@@ -120,4 +112,12 @@ h2 {
   box-shadow: 0 0.4rem 1.4rem 0 rgba(67, 77, 82, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 120ms;
+}
+
+.incorrect{
+    background-color: red;
+}
+
+.correct{
+    background-color: blue;
 }
