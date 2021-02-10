@@ -126,8 +126,8 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuesions = [...questions];
-    console.log(availableQuesions);
     getNewQuestion();
+    
 };
 //Redirect to End page when there are no more questions //
     getNewQuestion = () => {
@@ -162,14 +162,21 @@ choices.forEach(choice =>  {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
+        
+        const classToApply =
+        selectedAnswer == currentQuestion.correct_answer ? "correct" : "incorrect";
+         
+        selectedChoice.parentElement.classList.add(classToApply);
+
+        setTimeout(() => {
+        selectedChoice.parentElement.classList.remove(classToApply);
         getNewQuestion();
-    })
+        }, 1000);
+
+    });
     
-})
+});
    
-
-
-    
     
 startGame();
   
