@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(https://wallpaperaccess.com/full/2000058.jpg);
+  background-image: url(assets/images/Background.jpg);
   font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
@@ -121,3 +121,23 @@ h2 {
 .correct{
     background-color: blue;
 }
+/*end.html*/
+
+.Endgame-container{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+input{
+   font-size: 1.4rem;
+  padding: 0.5rem 0;
+  width: 12rem;
+  text-align: center;
+  border: 0.07rem solid #1d3365;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  color: #1d3365;
+  background-color: rgb(255, 255, 255);
+
+}
+
