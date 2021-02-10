@@ -6,16 +6,21 @@
 
 body {
   background-image: url(assets/images/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Roboto", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  height: 100vh;
-  width: 100vh;
+  height: 100%;
+  width: 100%;
   margin: 0 auto;
   max-width: 80rem;
-  padding: 1rem;
+  padding: 13rem;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -115,11 +120,11 @@ h2 {
 }
 
 .incorrect{
-    background-color: red;
+    background-color:  rgba(224, 47, 47, 0.719);
 }
 
 .correct{
-    background-color: blue;
+    background-color:rgba(19, 255, 110, 0.589);
 }
 /*end.html*/
 
@@ -127,17 +132,15 @@ h2 {
     flex-direction: column;
     align-items: center;
     display: flex;
+      
 }
+
 input{
-   font-size: 1.4rem;
+  font-size: 1.4rem;
   padding: 0.5rem 0;
   width: 12rem;
   text-align: center;
   border: 0.07rem solid #1d3365;
   margin-bottom: 1.5rem;
-  text-decoration: none;
-  color: #1d3365;
   background-color: rgb(255, 255, 255);
-
 }
-
