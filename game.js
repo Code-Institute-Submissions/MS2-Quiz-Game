@@ -119,8 +119,8 @@ let questions = [
     }
   ];
 //Constants
-const CORRECT_BONUS = 1;
-const MAX_QUESTIONS = 4;
+const CORRECT_BONUS = 10;
+const MAX_QUESTIONS = 2;
 
 startGame = () => {
     questionCounter = 0;
@@ -132,6 +132,8 @@ startGame = () => {
 //Redirect to End page when there are no more questions //
     getNewQuestion = () => {
     if(availableQuesions.length === 0 || questionCounter > MAX_QUESTIONS){
+      localStorage.setItem("mostRecentScore", score);
+      //Go to end page//
         return window.location.assign("/end.html")
     }
     //Redirect to End page when there ae no more questions //
@@ -165,7 +167,7 @@ choices.forEach(choice =>  {
         
         const classToApply =
         selectedAnswer == currentQuestion.correct_answer ? "correct" : "incorrect";
-         
+
         selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
@@ -173,9 +175,18 @@ choices.forEach(choice =>  {
         getNewQuestion();
         }, 1000);
 
+          if (classToApply === "correct") {
+      incrementScore(CORRECT_BONUS);
+    }
+
     });
     
 });
+
+incrementScore = num => {
+  score += num;
+  scoreText.innerText = score;
+};
    
     
 startGame();
