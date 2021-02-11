@@ -22,6 +22,7 @@
 
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
+const scoreText = document.getElementById("score");
 
 let currentQuestion = {};
 let score = 0;
@@ -168,10 +169,10 @@ choices.forEach(choice =>  {
         const classToApply =
         selectedAnswer == currentQuestion.correct_answer ? "correct" : "incorrect";
 
-        selectedChoice.parentElement.classList.add(classToApply);
+        selectedChoice.classList.add(classToApply);
 
         setTimeout(() => {
-        selectedChoice.parentElement.classList.remove(classToApply);
+        selectedChoice.classList.remove(classToApply);
         getNewQuestion();
         }, 1000);
 
@@ -186,7 +187,9 @@ choices.forEach(choice =>  {
 incrementScore = num => {
   score += num;
   scoreText.innerText = score;
+  
 };
+
    
     
 startGame();
