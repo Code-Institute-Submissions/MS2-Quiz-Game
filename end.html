@@ -10,12 +10,12 @@
     <div class="container">
         <div id="Endgame" class="box flex-center flex-column">
         <h1 id="finalscore">0</h1>
-        <form class="Endgame-container">
-            <h2 id="end-text">Save your Score</h2>
+        <form>
             <input type="text" name="name" placeholder="Enter your name">
-            <a class="btn hvr-ripple-out" href="game.html">Play Again?</a>
-            <a class="btn hvr-ripple-out" href="scores.html">Scores</a>
+            <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save</button>
         </form>
+        <a class="btn hvr-ripple-out" href="game.html">Play Again?</a>
+        <a class="btn hvr-ripple-out" href="scores.html">Scores</a>
         </div>
     </div>
     
