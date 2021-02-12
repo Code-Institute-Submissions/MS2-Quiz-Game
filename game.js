@@ -31,7 +31,7 @@ let availableQuesions = [];
 
 let questions = [
     {
-      question: "the number of holes in a stipulated round of golf",
+      question: "The number of holes in a stipulated round of golf",
       correct_answer: 1,
       option1: 18,
       option2: 5,
@@ -40,83 +40,83 @@ let questions = [
     },
     {
      
-      question: "the number of years in 235 lunations",
-       correct_answer: 1,
-      option1: 18,
-      option2: 5,
-      option3: 7,
-      option4: 9,
+      question: "The number of times an average person laughs a day",
+      correct_answer: 2,
+      option1: 10,
+      option2: 15,
+      option3: 25,
+      option4: 32,
     },
     {
      
-      question: "the number of personality types in the Myers-Briggs classification system",
-       correct_answer: 1,
+      question: "The number of personality types in the Myers-Briggs classification system",
+       correct_answer: 2,
       option1: 18,
-      option2: 5,
-      option3: 7,
-      option4: 9,
+      option2: 16,
+      option3: 20,
+      option4: 10,
     },
     {
     
-      question: "the number of sides on the Canadian one-dollar coin (a hendecagon, an eleven-sided polygon)",
+      question: "The minimum driving age for a car or van in the United Kingdom",
        correct_answer: 1,
+      option1: 17,
+      option2: 18,
+      option3: 19,
+      option4: 21,
+    },
+    {
+      
+      question: "The number of Oscar nominations of actress Meryl Streep, who holds the record for the most Oscar nominated actress",
+       correct_answer: 1,
+      option1: 13,
+      option2: 9,
+      option3: 10,
+      option4: 15,
+    },
+    {
+      
+      question: "The number of times that a typical dairy cow lies down and stands up a day on average",
+      correct_answer: 3,
       option1: 18,
       option2: 5,
-      option3: 7,
+      option3: 14,
       option4: 9,
     },
     {
       
-      question: "the length in miles of a train of boxcars that can be filled from recycled paper in the USA every day",
-       correct_answer: 1,
-      option1: 18,
-      option2: 5,
-      option3: 7,
+      question: "The number of colors the labels for Crayola crayons come in",
+       correct_answer: 2,
+      option1: 16,
+      option2: 18,
+      option3: 12,
       option4: 9,
     },
     {
       
-      question: "the number of years in 235 lunations",
+      question: "The number of questions in the popular party game Twenty Questions",
       correct_answer: 1,
-      option1: 18,
-      option2: 5,
-      option3: 7,
-      option4: 9,
+      option1: 20,
+      option2: 50,
+      option3: 10,
+      option4: 40,
     },
     {
       
-      question: "the number of levels in hell in the Chinese mythos",
-       correct_answer: 1,
-      option1: 18,
-      option2: 5,
-      option3: 7,
-      option4: 9,
+      question: "The number of days in a fortnight",
+      correct_answer: 3,
+      option1: 24,
+      option2: 4,
+      option3: 14,
+      option4: 24,
     },
     {
-      
-      question: "the final year a person is a teenager",
-      correct_answer: 1,
-      option1: 18,
-      option2: 5,
-      option3: 7,
-      option4: 9,
-    },
-    {
-      
-      question: "the number of pieces the body of Osiris was torn into by his fratricidal brother Set",
-      correct_answer: 1,
-      option1: 18,
-      option2: 5,
-      option3: 7,
-      option4: 9,
-    },
-    {
-      question: "the number of Provinces in Canada",
-       correct_answer: 1,
-      option1: 18,
-      option2: 5,
-      option3: 7,
-      option4: 9,
+      question: "The number of teams that qualified for the finals of the FIFA World Cup from 1934 through 1978 (although for various reasons, only 15 competed in the 1938 and 1950 finals)",
+       correct_answer: 2,
+      option1: 20,
+      option2: 16,
+      option3: 32,
+      option4: 40,
     }
   ];
 //Constants
