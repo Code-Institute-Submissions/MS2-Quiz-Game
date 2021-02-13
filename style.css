@@ -9,12 +9,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Roboto", sans-serif;
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 80rem;
-  padding: 13rem;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 800px;
+  max-width: 100%;
+  border-radius: 5px;
   
 }
 .box{
@@ -27,8 +33,9 @@ body {
 
 
 h1 {
-  font-size: 4.8rem;
+  font-size: 2.8rem;
   color: #1d3365;
+  text-align: center;
 }
 
 /* btn */
@@ -91,17 +98,16 @@ h1 {
 
 /* Game.html*/
 
-h2 {
-  font-size: 3.2rem;
-  margin-bottom: 3rem;
-  font-weight: 500;
-}
-
 #question{
-    color: rgba(10, 27, 43, 0.815);
-    width: 55rem;
-    height: 10rem;
-    margin-top: 2rem;
+font-size: 2rem;
+ margin-bottom: 3rem;
+ font-weight: 300;
+ text-align: center;
+ color: rgba(10, 27, 43, 0.815);
+ width: 50rem;
+ height: 10rem;
+ margin-top: 2rem;
+   
 }
 
 .choice-box {
@@ -113,10 +119,12 @@ h2 {
   border: 0.1rem solid rgba(0, 29, 83, 0.25);
   background-color: rgb(243, 243, 243);
   margin-right: 30px;
+  margin-left: 45px;
 }
 .choice-text {
-  padding: 0.1rem;
-  width: 100%;
+   padding: 0px 45px;
+  
+  
 }
 
 .choice-box:hover {
@@ -156,6 +164,7 @@ form{
 #highScoresList {
   list-style: none;
   padding-left: 0;
+  text-align: center;
   margin-bottom: 4rem;
 }
 
@@ -164,3 +173,7 @@ form{
   margin-bottom: 0.3rem;
   color: rgb(1, 0, 78);;
 }
+
+
+
+
