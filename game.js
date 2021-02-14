@@ -8,6 +8,7 @@ let questionCounter = 0;
 let availableQuesions = [];
 
 let questions = [
+   
     {
       "question": "The number of holes in a stipulated round of golf",
       "correct_answer": 1,
@@ -15,6 +16,14 @@ let questions = [
       "option2": 5,
       "option3": 7,
       "option4": 9
+    },
+    {
+      "question":  "The minimum wind speed (mph) needed to issue a Severe Thunderstorm Warning",
+      "correct_answer": 3,
+      "option1": 68,
+      "option2": 79,
+      "option3": 58,
+      "option4": 99,
     },
     {
      
@@ -25,6 +34,7 @@ let questions = [
       "option3": 25,
       "option4": 32
     },
+    
     {
      
       "question": "The number of personality types in the Myers-Briggs classification system",
@@ -89,13 +99,23 @@ let questions = [
       "option4": 24
     },
     {
-      "question": "The number of teams that qualified for the finals of the FIFA World Cup from 1934 through 1978 (although for various reasons, only 15 competed in the 1938 and 1950 finals)",
-       "correct_answer": 2,
-      "option1": 20,
-      "option2": 16,
-      "option3": 32,
-      "option4": 40
+      "question":  "The number of different characters that can be used with a standard English Keyboard, excluding uppercase letters",
+      "correct_answer": 3,
+      "option1": 32,
+      "option2": 68,
+      "option3": 71,
+      "option4": 92,
+    },
+    {
+       "question":  "The number of unique ranks in a suit in a pack of cards.",
+      "correct_answer": 2,
+      "option1": 12,
+      "option2": 13,
+      "option3": 20,
+      "option4": 14,
     }
+
+    
   ];
 
 // document.querySelector("#Get-Quote").addEventListener("click", GetAPI);
