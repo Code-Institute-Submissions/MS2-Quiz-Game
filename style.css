@@ -44,11 +44,12 @@ h1 {
   padding: 0.5rem 0;
   width: 12rem;
   text-align: center;
-  border: 0.07rem solid #1d3365;
   margin-bottom: 1.5rem;
   text-decoration: none;
   color: #1d3365;
   background-color: rgb(255, 255, 255);
+  border-radius: 15px 50px
+  
 }
 
 /* Ripple Out Button Effect*/
@@ -77,6 +78,7 @@ h1 {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
+  border-radius: 15px 50px
 }
 .hvr-ripple-out:before {
   content: "";
@@ -88,6 +90,7 @@ h1 {
   left: 0;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
+ border-radius: 15px 50px
 }
 .hvr-ripple-out:hover:before,
 .hvr-ripple-out:focus:before,
@@ -99,7 +102,7 @@ h1 {
 /* Game.html*/
 
 #question{
-font-size: 2rem;
+ font-size: 2rem;
  margin-bottom: 3rem;
  font-weight: 300;
  text-align: center;
@@ -107,6 +110,7 @@ font-size: 2rem;
  width: 50rem;
  height: 10rem;
  margin-top: 2rem;
+ 
    
 }
 
@@ -120,11 +124,11 @@ font-size: 2rem;
   background-color: rgb(243, 243, 243);
   margin-right: 30px;
   margin-left: 45px;
+  border-radius: 15px 50px
 }
 .choice-text {
    padding: 0px 45px;
-  
-  
+   
 }
 
 .choice-box:hover {
@@ -132,33 +136,27 @@ font-size: 2rem;
   box-shadow: 0 0.4rem 1.4rem 0 rgba(67, 77, 82, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 120ms;
+  border-radius: 25px;
 }
 
 .incorrect{
     background-color:  rgba(224, 47, 47, 0.719);
+     border-radius: 25px;
 }
 
 .correct{
     background-color:rgba(19, 255, 110, 0.589);
+     border-radius: 25px;
 }
 /*end.html*/
-
-input{
-  font-size: 1.4rem;
-  padding: 0.5rem 0;
-  width: 12rem;
-  text-align: center;
-  border: 0.07rem solid #1d3365;
-  margin-bottom: 1.5rem;
-  background-color: rgb(255, 255, 255);
-}
 
 form{
     width: 100;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;  
 }
+
 
 /*topscores.html*/
 #highScoresList {
@@ -174,19 +172,7 @@ form{
   color: rgb(1, 0, 78);;
 }
 
-.btn-score{
-  font-size: 1.4rem;
-  padding: 0.5rem 0;
-  width: 12rem;
-  text-align: center;
-  border: 0.07rem solid #1d3365;
-  margin-bottom: 1.5rem;
-  text-decoration: none;
-  color: #1d3365;
-  background-color: rgb(255, 255, 255);
-  margin-left: 305px;
 
-}
 @media only screen and (max-width: 700px)
 {
 body {
@@ -203,17 +189,21 @@ body {
  width: auto;
  margin-top: 2.5rem;
  margin-bottom: 2.5rem;
+ padding-left: 10px;
+ 
 }
 .choice-box {
- 
+  
+  margin-top: 5rem;
   margin-bottom: 5.5rem;
-  width: auto;
+  width: 28%;
   font-size: 1.8rem;
+  border-radius: 25px;
   }
 
-  .btn-score{
-  
-  margin-left: 110px;
+  .choice-text{
+    padding-left: 37px;
+  }
 
-}
+
 }
