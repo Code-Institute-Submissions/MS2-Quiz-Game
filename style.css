@@ -34,7 +34,7 @@ body {
 
 h1 {
   font-size: 2.8rem;
-  color: #1d3365;
+  color: #3c70eb;
   text-align: center;
 }
 
@@ -107,9 +107,9 @@ h1 {
 #question{
  font-size: 2rem;
  margin-bottom: 3rem;
- font-weight: 300;
+ font-weight: 500;
  text-align: center;
- color: rgba(10, 27, 43, 0.815);
+ color: rgba(0, 0, 0, 0.815);
  width: 50rem;
  height: 10rem;
  margin-top: 2rem;
@@ -154,9 +154,9 @@ h1 {
 
 .scoreboard {
     font-size: 2.6rem;
-    margin-bottom: 100px;
-    height: 50px;
-    color: #1d3365;
+    margin-bottom: 50px;
+    height: 30px;
+    color: #4572da;
     text-align: center;
 }
 /*end.html*/
@@ -203,26 +203,28 @@ body {
   /* This is what makes the background image rescale based
      on the container's size */
   background-size: cover;
+  
 }
 #question{
- width: auto;
- margin-top: 2.5rem;
+ width: 90%;
+ margin-top: 3.5rem;
  margin-bottom: 2.5rem;
- padding-left: 10px;
- 
+ padding-left: 15px;
+ font-size: 27px;
+}
+
 }
 .choice-box {
   
-  margin-top: 5rem;
-  margin-bottom: 5.5rem;
+  margin-top: 2.4rem;
   width: 28%;
   font-size: 1.8rem;
   border-radius: 25px;
+  display: flex;
+  margin-left: 35%; 
   }
 
   .choice-text{
     padding-left: 37px;
   }
 
-
-}
