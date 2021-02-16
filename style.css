@@ -157,6 +157,10 @@ form{
     align-items: center;  
 }
 
+.btn:focus{
+outline: none
+}
+
 
 /*topscores.html*/
 #highScoresList {
