@@ -37,14 +37,21 @@ The idea of this project was to create a simple number quiz using an API.
   - The site has 5 pages, "Home", "countdown", "game" "end" and "Top Scores".
   - The design is simple with dark colors with the purpose of being easy tor read, medium size letters. I used a background   
     with falling numbers to give it a clear purpose or relation towards numbers.	
-  - Originally the design was with light colors but after a few users experience i realize it got tiring for the eyes, so i adopted a darker scheme.
+  - Originally the design was with light colors but after a few users experience i realize it got tiring for the eyes, so i adopted a darker theme.
     With that in mind i looked on app and website for inspiration and decided to use the colors for the Spotify app, and the 
     feedback i got was really positive.
-  - #### Typography
+  - #### Font
 
-    - The Poppins font is the main font used throughout the whole website with Sans Serif as the fallback font in the 
-      case for any reason the font isn't being imported into the site correctly, I tried other fonts and although they looked nicer
-      i found they were harder to read. 
+    - The Sarabun font is the main font used throughout the whole website with Sans Serif as the fallback font in the 
+      case for any reason the font isn't being imported into the site correctly. I specially like about this font the way
+      numbers are display, it looks good on small devices as well.
+
+  - #### Color
+
+    - Originally the colors i was going for were a combination of violet and blue, with a white background image with numbers, but 
+    it did not turn out as i expected. I still wanted an image in the background with numbers but with a different background color.
+    I decided to go with the spotify model, green black and grey.
+
       
   - #### Imagery
     - - There is only one image I used for the background, on the countdown page is the original image and in the rest of the website, I remove some 
@@ -68,15 +75,29 @@ I saw some similar projects using an API like https://opentdb.com/ or https://ra
 I decided to use the numbers API found on the site mentioned, while I was testing to see if it would work I had issues
 with HTTPS requests, since there was no support and after a searching and not finding a solution I decided to go another way and 
 create my own API with this site https://my-json-server.typicode.com and copy the trivia questions I found on the Rapid API site.
+
+
 ## Features
 
-- Responsive on all device sizes
-- Form validation is required to ensure the correct inputs are taken and that all fields are required
-- Animation countdown
-- Score Counter in the Game and End Page
-- Save Score functinality
-- Top 5 Score display in the End page
+###  Responsive on all device sizes
+
+### Form validation 
+Input requried in the "name" box
+
+### Animation countdown
+A countdown before the stat of the game.
+
+### Score Counter in the Game and End Pag
+The Score counter to let the user know the curretn and final score.
+
+### Save Score functinality
+Feature that allows the user to save the score.
+
+### Top 5 Score display in the End page
+Feature to allow only the to 5 scores to be saved.
+
 ## Features left to implement
+- Timer for the questions
 
 ## Technologies Used
 
