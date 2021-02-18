@@ -50,12 +50,16 @@ The idea of this project was to create a simple number quiz using an API.
     - - There is only one image I used for the background, on the countdown page is the original image and in the rest of the website, I remove some 
     of the falling numbers from the center and replace it with a black background so the questions can be read properly.
 
-#### Wireframes
+### Balsamiq Wireframes
 
-Home Page<br>
-[Home Page Wireframe](assets/images/Wireframes/Home1.jpg)<br>
-Game Page<br>
-[Works Page Wireframe](assets/images/Wireframes/works1.jpg)<br>
+#### Home Page
+[Home Page Wireframe](assets/images/Mockups/Home0.jpg)<br>
+### Game Page <br>
+[Works Page Wireframe](assets/images/Mockups/Game1.jpg)<br>
+### End Page
+[Home Page Wireframe](assets/images/Mockups/End1.jpg)<br>
+### Top Scores<br>
+[Works Page Wireframe](assets/images/Mockups/TopScores1.jpg)<br>
 
 #### Modifications to original Design
 
@@ -82,32 +86,27 @@ create my own API with this site https://my-json-server.typicode.com and copy th
 
 ### Frameworks, Libraries & Programs Used
 
-1.
 
-2.  Fontawesome
-
-- Fontawesome was used for the social media icons
-
-3. Google Fonts
+1. Google Fonts
 
 - Google Font was used to import the Poppins font through the entire website
 
-4. Github
+2. Github
 
 - Github was used to store the code pushed through Gitpod
 
-5. VsCode
+3. VsCode
 
 - VsCode was the Integrated Development Environment used to develop the Website.
 
-6. Balsamiq
+4. Balsamiq
 
 - Balsamiq was used to create the wireframes during the design process.
 
-7.API 
+5. API 
 - db.json file hosted on https://my-json-server.typicode.com/Federvgh%20/MS2-Quiz-Game/ to request the data.
 
-8.  Chrome DevOps Tools
+6.  Chrome DevOps Tools
 
 - Chrome DevOps Tools was used to check elements and help debug issues with the site layout and try different CSS styles.
 
@@ -174,7 +173,7 @@ The project was deployed to GitHub with the following steps:
 -
 - The hover effect on the buttons was taken from https://ianlunn.github.io/Hover/
 - The countdown page I took from a course I bought in Udemy https://www.udemy.com/course/50-projects-50-days/
-I just added a redirect function with a timer and modified the colors.
+  I just added a redirect function with a timer and modified the colors.
 - I used excerpts to develop the quiz format from https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx
 - My Mentor Antonio Rodriguez was really helpful and showed me how to create my own API
 - The slack community was really helpful, I found a lot of solutions to simply issues that were already posted.
