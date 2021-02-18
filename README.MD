@@ -72,8 +72,10 @@ create my own API with this site https://my-json-server.typicode.com and copy th
 
 - Responsive on all device sizes
 - Form validation is required to ensure the correct inputs are taken and that all fields are required
-- 
-
+- Animation countdown
+- Score Counter in the Game and End Page
+- Save Score functinality
+- Top 5 Score display in the End page
 ## Features left to implement
 
 ## Technologies Used
