@@ -133,7 +133,7 @@ The background with the falling numbers and the title "Number Quiz" introduce th
 
 2.  As a returning visitor, you can play again or check the scores.
 
-        1.  On the main page you can look at the scores or play again.
+1.  On the main page you can look at the scores or play again.
 
 ### Further Testing
 
@@ -167,7 +167,6 @@ The project was deployed to GitHub with the following steps:
 2. I had issues with the API requests from HTTPS site, so I decided to create my own API.
 3. I had issues with the background interfering with the questions displayed so I removed some fragments from the middle.
 4. The general color of the site was to bright and after a few minutes it gets annoying according to user experience so I decided to change the background to something easier on the eyes.
-
 5. The correct answer are displayed horizontally on the desktop, but it did not look ok on smaller devices so I used media queries to display them vertically.
 
 ## Credits
