@@ -263,7 +263,8 @@ startGame = () => {
     if(availableQuesions.length === 0 || questionCounter > MAX_QUESTIONS){
       localStorage.setItem("mostRecentScore", score);
       //Go to end page//
-         return window.location.assign('/end.html');
+      
+         return window.location.assign('end.html');
     }
     //Redirect to End page when there ae no more questions //
 

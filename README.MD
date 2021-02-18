@@ -26,17 +26,16 @@ The idea of this project was to create a simple number quiz using an API.
 
   - #### First Time and Returning Visitor
 
-    1.
-    2.
-    3.
-    4.
-    5.
+    1. As a user, I want to be able to see my score.
+    2. As a user, I want the game to be intuitive and easy to play.
+    3. As a user, I want to be able to save my score.
+    4. As a user, I want to be able to check the top scores.
+    5. As a user, I dont want the right answer to be displayed.
 
   - ## Design
     ### Structure
   - The site has 5 pages, "Home", "countdown", "game" "end" and "Top Scores".
-  - The design is simple with dark colors with the purpose of being easy tor read, medium size letters. I used a background   
-    with falling numbers to give it a clear purpose or relation towards numbers.	
+  - The design is simple with dark colors with the purpose of being easy tor read, medium size letters. I used a background  with falling numbers to give it a clear purpose or relation towards numbers.	
   - Originally the design was with light colors but after a few users experience i realize it got tiring for the eyes, so i adopted a darker theme.
     With that in mind i looked on app and website for inspiration and decided to use the colors for the Spotify app, and the 
     feedback i got was really positive.
