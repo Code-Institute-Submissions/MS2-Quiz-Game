@@ -53,15 +53,7 @@ let availableQuesions = [];
       "option3": 19,
       "option4": 21
     },
-    {
-      
-      "question": "The number of times that a typical dairy cow lies down and stands up a day on average",
-      "correct_answer": 3,
-      "option1": 18,
-      "option2": 5,
-      "option3": 14,
-      "option4": 9
-    },
+
     {
       
       "question": "The number of colors the labels for Crayola crayons come in",
@@ -130,7 +122,7 @@ let availableQuesions = [];
       "option4": 30
     },
     {
-      "question": "The percentage of methane on Earth produced from the flatulence of domesticated cows",
+      "question": "The percentage of methane produced from the flatulence of cows",
       "correct_answer": 2,
       "option1": 40,
       "option2": 30,
@@ -186,7 +178,7 @@ let availableQuesions = [];
       "option4": 56
     },
     {
-      "question":  "The number Bill and Ted were thinking of when talking to their future selves",
+      "question":  "The number Bill and Ted were thinking when talking to their future selves",
       "correct_answer": 2,
       "option1": 99,
       "option2": 69,
