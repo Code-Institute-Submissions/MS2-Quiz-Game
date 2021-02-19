@@ -104,6 +104,11 @@ h1 {
 
 /* Game.html*/
 
+.hide{
+    display: none;
+}
+
+
 #question{
  font-size: 2rem;
  margin-bottom: 3rem;
