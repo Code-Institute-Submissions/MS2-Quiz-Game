@@ -33,7 +33,7 @@ function GetAPI(e) {
 
 //Constants
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 2;
+const MAX_QUESTIONS = 4;
 
 startGame = () => {
     questionCounter = 0;

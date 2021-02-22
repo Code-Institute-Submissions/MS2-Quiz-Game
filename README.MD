@@ -67,6 +67,8 @@ The idea of this project was to create a simple number quiz using an API.
 ### Top Scores<br>
 [Works Page Wireframe](assets/images/Mockups/TopScores1.jpg)<br>
 
+
+
 #### Modifications to original Design
 
 My original project was to design a movie quiz, but doing some research and after a few roadblocks I decided to use numbers.
@@ -162,6 +164,11 @@ The background with the falling numbers and the title "Number Quiz" introduce th
 - The website was viewed on different devices such as Desktop, Laptops, Android phones, iPhone 6, and iPhone x, and I used http://www.responsinator.com/ as well to check responsiveness.
 - I asked friends and family members to review the site and give me feedback about the user experience.
 
+#### Performace Test
+[Desktop Lighthouse](assets/images/Mockups/Lighthouse-Desktop.jpg)<br>
+
+[Mobile Lighthouse](assets/images/Mockups/Lighthouse-Mobile.jpg)<br>
+
 ## Deployment
 
 The project was deployed to GitHub with the following steps:
@@ -189,7 +196,7 @@ The project was deployed to GitHub with the following steps:
 3. I had issues with the background interfering with the questions displayed so I removed some fragments from the middle.
 4. The general color of the site was to bright and after a few minutes it gets annoying according to user experience so I decided to change the background to something easier on the eyes.
 5. The correct answer are displayed horizontally on the desktop, but it did not look ok on smaller devices so I used media queries to display them vertically.
-
+6. I tried to add more questions to the DB but it has a limit of 30. 
 ## Credits
 
 -
