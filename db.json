@@ -9,14 +9,6 @@
       "option4": 9
     },
     {
-      "question":  "The minimum wind speed (mph) needed to issue a Severe Thunderstorm Warning",
-      "correct_answer": 3,
-      "option1": 68,
-      "option2": 79,
-      "option3": 58,
-      "option4": 99
-    },
-    {
      
       "question": "The number of times an average person laughs a day",
       "correct_answer": 2,
@@ -35,34 +27,8 @@
       "option3": 20,
       "option4": 10
     },
-    {
-    
-      "question": "The minimum driving age for a car or van in the United Kingdom",
-       "correct_answer": 1,
-      "option1": 17,
-      "option2": 18,
-      "option3": 19,
-      "option4": 21
-    },
 
-    {
-      
-      "question": "The number of colors the labels for Crayola crayons come in",
-       "correct_answer": 2,
-      "option1": 16,
-      "option2": 18,
-      "option3": 12,
-      "option4": 9
-    },
-    {
-      
-      "question": "The number of questions in the popular party game Twenty Questions",
-      "correct_answer": 1,
-      "option1": 20,
-      "option2": 50,
-      "option3": 10,
-      "option4": 40
-    },
+
     {
       
       "question": "The number of days in a fortnight",
@@ -89,14 +55,6 @@
       "option4": 29
     },
     {
-      "question":  "The angle in degrees for which a rainbow appears or the critical angle",
-      "correct_answer": 3,
-      "option1": 49,
-      "option2": 63,
-      "option3": 42,
-      "option4": 29
-    },
-    {
       "question": "The number of countries in the European Union (as of August 2011)",
       "correct_answer": 1,
       "option1": 27,
@@ -105,28 +63,12 @@
       "option4": 29
     },
     {
-      "question":  "The number of points on a backgammon board",
-      "correct_answer": 3,
-      "option1": 51,
-      "option2": 64,
-      "option3": 24,
-      "option4": 30
-    },
-    {
       "question": "The percentage of methane produced from the flatulence of cows",
       "correct_answer": 2,
       "option1": 40,
       "option2": 30,
       "option3": 50,
       "option4": 80
-    },
-    {
-      "question":  "The code for international direct dial phone calls to Vietnam",
-      "correct_answer": 3,
-      "option1": 78,
-      "option2": 56,
-      "option3": 84,
-      "option4": 45
     },
      {
       "question": "The number of sets needed to be won to win the whole match in volleyball",
@@ -153,22 +95,6 @@
       "option4": 10
     },
     {
-      "question":  "the highest jersey number allowed in most major league sports",
-      "correct_answer": 3,
-      "option1": 25,
-      "option2": 88,
-      "option3": 99,
-      "option4": 77
-    },
-    {
-      "question": "The approximate number of days it takes Mercury to complete its orbit",
-      "correct_answer": 1,
-      "option1": 88,
-      "option2": 75,
-      "option3": 98,
-      "option4": 56
-    },
-    {
       "question":  "The number Bill and Ted were thinking when talking to their future selves",
       "correct_answer": 2,
       "option1": 99,
@@ -192,22 +118,7 @@
       "option3": 23,
       "option4": 45
     },
- {
-      "question": "The number of suicides mentioned in the Bible",
-      "correct_answer": 4,
-      "option1": 3,
-      "option2": 4,
-      "option3": 6,
-      "option4": 7
-    },
-    {
-      "question":  "The number of points on the stylized maple leaf on the Flag of Canada",
-      "correct_answer": 1,
-      "option1": 11,
-      "option2": 8,
-      "option3": 14,
-      "option4": 10
-    },
+
     {
       "question": "The number of human chromosomes",
       "correct_answer": 1,
@@ -215,23 +126,6 @@
       "option2": 23,
       "option3": 32,
       "option4": 12
-    },
-    {
-      "question":  "The height in kilometres that a volcano can shoot ash into the sky",
-      "correct_answer": 3,
-      "option1": 80,
-      "option2": 78,
-      "option3": 50,
-      "option4": 65
-    },
-    {
-     
-      "question": "the number of officially recognized ethnic groups in China",
-      "correct_answer": 2,
-      "option1": 48,
-      "option2": 56,
-      "option3": 33,
-      "option4": 45
     },
     
     {
@@ -255,15 +149,6 @@
 
     {
       
-      "question": "The number of bones in the human hand",
-       "correct_answer": 2,
-      "option1": 16,
-      "option2": 27,
-      "option3": 35,
-      "option4": 15
-    },
-    {
-      
       "question": "The number of days February has in leap years",
       "correct_answer": 1,
       "option1": 29,
@@ -280,14 +165,6 @@
       "option3": 30,
       "option4": 40
     },
-    {
-       "question":  "The temperature at which water boils according to the Newton scale",
-      "correct_answer": 2,
-      "option1": 40,
-      "option2": 33,
-      "option3": 45,
-      "option4": 27
-    },
      {
       "question": "The number of checkers each side has at the start of a backgammon game.",
       "correct_answer": 1,
@@ -295,22 +172,6 @@
       "option2": 16,
       "option3": 8,
       "option4": 14
-    },
-    {
-      "question":  "The number of letters in both the modern and classical Greek alphabet",
-      "correct_answer": 3,
-      "option1": 27,
-      "option2": 25,
-      "option3": 24,
-      "option4": 29
-    },
-    {
-      "question": "the number of letters in the Turkish,Finnish, Swedish,Faroese,Danish and Norwegianalphabets",
-      "correct_answer": 1,
-      "option1": 29,
-      "option2": 25,
-      "option3": 32,
-      "option4": 24
     },
     {
       "question":  "The number of sides on a cube",
@@ -335,14 +196,6 @@
       "option2": 7,
       "option3": 9,
       "option4": 6
-    },
-     {
-      "question": "The number of years in a decade",
-      "correct_answer": 1,
-      "option1": 10,
-      "option2": 1,
-      "option3": 100,
-      "option4": 20
     },
     {
       "question":  "The number of players in a field hockey team",
@@ -376,14 +229,7 @@
       "option3": 10,
       "option4": 11
     },
-    {
-      "question":  "The price in cents per acre the USA bought Alaska from Russia",
-      "correct_answer": 2,
-      "option1": 10,
-      "option2": 2,
-      "option3": 5,
-      "option4": 20
-    },
+  
     {
       "question": "The number of spatial dimensions we perceive our universe to have",
       "correct_answer": 2,
