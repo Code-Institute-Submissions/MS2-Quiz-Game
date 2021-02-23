@@ -197,8 +197,8 @@ outline: none
 }
 
 
-@media (min-width: 375px)
-and (max-width: 500px)
+@media (min-width: 360px)
+and (max-width: 650px)
 {
 body {
 /* Background image is centered vertically and horizontally at all times */
@@ -229,7 +229,7 @@ body {
 
 }
 .choice-box {
-  margin-top: 1.0rem;
+  margin-top: 2rem;
   width: auto;
   }
   

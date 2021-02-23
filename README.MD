@@ -18,9 +18,15 @@ Live Demo [here](https://federvgh.github.io/MS2-Quiz-Game/).
 
 ## Overview
 
-The idea of this project was to create a simple number quiz using an API.
+The idea of this project was to create a fun number trivia quiz, easy to use, with a smooth design.
 
 ## UX
+
+- ## Designer Stories
+
+    1. As the desginer, I want the game to be entertaining and give the user the feeling to keep playing.
+    2. As the desginer, I want the game to give some useful trivia about numbers. 
+    3. As the desginer, I want this game to show my new skills with javascript.
 
 - ### User stories
 
@@ -35,15 +41,17 @@ The idea of this project was to create a simple number quiz using an API.
   - ## Design
     ### Structure
   - The site has 5 pages, "Home", "countdown", "game" "end" and "Top Scores".
-  - The design is simple with dark colors with the purpose of being easy tor read, medium size letters. I used a background  with falling numbers to give it a clear purpose or relation towards numbers.	
-  - Originally the design was with light colors but after a few users experience i realize it got tiring for the eyes, so i adopted a darker theme.
-    With that in mind i looked on app and website for inspiration and decided to use the colors for the Spotify app, and the 
+  - The design is simple with dark colors with the purpose of being easy tor read, medium size letters. I used a background  with 
+    falling numbers to give it a clear purpose or relation towards numbers.	
+  - Originally the design was with light colors but after a few users experiences I realize it got tiring for the eyes, so i adopted a darker theme.
+    With that in mind I looked on apps and websites for inspiration and decided to use the colors for the Spotify app, and the 
     feedback i got was really positive.
+
   - #### Font
 
     - The Sarabun font is the main font used throughout the whole website with Sans Serif as the fallback font in the 
-      case for any reason the font isn't being imported into the site correctly. I specially like about this font the way
-      numbers are display, it looks good on small devices as well.
+      case for any reason the font isn't being imported into the site correctly. What I specially like about this font was the way
+      numbers are displayed, it looks good on small devices as well.
 
   - #### Color
 
@@ -60,14 +68,22 @@ The idea of this project was to create a simple number quiz using an API.
 
 #### Home Page
 [Home Page Wireframe](assets/images/Mockups/Home0.jpg)<br>
+I designed the Home page to be really simple and copied the most common model for games where you just have two choices,
+ "Play" and "Scores", the idea was to keep it simple and intuitive. 
+
 ### Game Page <br>
 [Works Page Wireframe](assets/images/Mockups/Game1.jpg)<br>
+The game page provides a random trivia quote about a number and gives 4 choices to select from with your
+current score above the quote, its pretty straight forward like and other quiz.
+
 ### End Page
 [Home Page Wireframe](assets/images/Mockups/End1.jpg)<br>
+The End page has an input to save the score, a "Save" button, the option to play again and in case you want
+to check the scores directly, the score button.  
+
 ### Top Scores<br>
 [Works Page Wireframe](assets/images/Mockups/TopScores1.jpg)<br>
-
-
+The TopScores shows you the top 5 scores saved and the button to go back to the home page.
 
 #### Modifications to original Design
 
@@ -96,6 +112,12 @@ Feature that allows the user to save the score.
 
 ### Top 5 Score display in the End page
 Feature to allow only the to 5 scores to be saved.
+
+### Hover effect over selected answer
+When you hover over an answer it creates a shadow effect and goes up.
+
+### Pointer effect over 
+When you hover over a button it shows you a pointer.
 
 ## Features left to implement
 - Timer for the questions
@@ -191,20 +213,22 @@ The project was deployed to GitHub with the following steps:
 
 ## Bugs and Solutions
 
-1. One of the main issues I had worked with both gitpod and Vscode, I used both because gitpod was in the middle of an upgrade apparently and was not working all the time and I was falling behind on my project, using both caused some issues in my repository thus why some commits might not be clear.
+1. One of the main issues I had worked with both gitpod and Vscode, I used both because gitpod was in the middle of an upgrade apparently
+   and was not working all the time and I was falling behind on my project, using both caused some issues in my repository thats why some commits might not be clear.
 2. I had issues with the API requests from HTTPS site, so I decided to create my own API.
 3. I had issues with the background interfering with the questions displayed so I removed some fragments from the middle.
 4. The general color of the site was to bright and after a few minutes it gets annoying according to user experience so I decided to change the background to something easier on the eyes.
 5. The correct answer are displayed horizontally on the desktop, but it did not look ok on smaller devices so I used media queries to display them vertically.
 6. I tried to add more questions to the DB but it has a limit of 30. 
+7. 
+
 ## Credits
 
--
 - The hover effect on the buttons was taken from https://ianlunn.github.io/Hover/
 - The countdown page I took from a course I bought in Udemy https://www.udemy.com/course/50-projects-50-days/
   I just added a redirect function with a timer and modified the colors.
 - I used excerpts to develop the quiz format from https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx
-- My Mentor Antonio Rodriguez was really helpful and showed me how to create my own API
+- My Mentor Antonio Rodriguez was really helpful and showed me how to create my own API.
 - The slack community was really helpful, I found a lot of solutions to simply issues that were already posted.
 - Code institute support helped me a lot with very specific details and issues that I had.
 - I took a lot of information and ideas from YouTube channels from Brad Traversy Media and Web Dev Simplified.
