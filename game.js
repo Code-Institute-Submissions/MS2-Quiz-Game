@@ -1,7 +1,11 @@
+/*jshint esversion: 6 */
+
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const scoreText = document.getElementById("score");
 
+let   getNewQuestion = {};
+let   acceptingAnswers = {};
 let currentQuestion = {};
 let score = 0;
 let questionCounter = 0;
@@ -19,7 +23,7 @@ function GetAPI(e) {
     xhttp.addEventListener("readystatechange", function () {
         if (this.readyState === this.DONE) {
            
-        questions = JSON.parse(this.responseText)["results"];
+        questions = JSON.parse(this.responseText).results;
     console.log("questions", questions);    
     startGame();
     }
@@ -35,7 +39,7 @@ function GetAPI(e) {
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 4;
 
-startGame = () => {
+const startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuesions = [...questions];
@@ -68,7 +72,7 @@ startGame = () => {
 
     //show available answers in box//
    choices.forEach((choice) => {
-        const number = choice.dataset['number'];
+        const number = choice.dataset.number;
         choice.innerText = currentQuestion['option' + number];
     
     });
@@ -80,9 +84,9 @@ choices.forEach(choice =>  {
     choice.addEventListener("click", e => {
         if (!acceptingAnswers) return;
 
-        acceptingAnswers = false;
+     acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
+        const selectedAnswer = selectedChoice.dataset.number;
         
         const classToApply =
         selectedAnswer == currentQuestion.correct_answer ? "correct" : "incorrect";
@@ -102,13 +106,10 @@ choices.forEach(choice =>  {
     
 });
 
-incrementScore = num => {
+const incrementScore = num => {
   score += num;
   scoreText.innerText = score;
   
+  
 };
-
-   
-    
-
   
