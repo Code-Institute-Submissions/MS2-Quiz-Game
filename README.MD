@@ -22,11 +22,11 @@ The idea of this project was to create a fun number trivia quiz, easy to use, wi
 
 ## UX
 
-- ## Designer Stories
+- ## Owner Stories
 
-    1. As the desginer, I want the game to be entertaining and give the user the feeling to keep playing.
-    2. As the desginer, I want the game to give some useful trivia about numbers. 
-    3. As the desginer, I want this game to show my new skills with javascript.
+    1. As the Owner, I want the game to be entertaining and give the user the feeling to keep playing.
+    2. As the Owner, I want the game to give some useful trivia about numbers. 
+    3. As the Owner, I want this game to show my new skills with javascript.
 
 - ### User stories
 
@@ -39,6 +39,7 @@ The idea of this project was to create a fun number trivia quiz, easy to use, wi
     5. As a user, I dont want the right answer to be displayed.
 
   - ## Design
+
     ### Structure
   - The site has 5 pages, "Home", "countdown", "game" "end" and "Top Scores".
   - The design is simple with dark colors with the purpose of being easy tor read, medium size letters. I used a background  with 
@@ -145,14 +146,18 @@ When you hover over a button it shows you a pointer.
 
 - VsCode was the Integrated Development Environment used to develop the Website.
 
-4. Balsamiq
+4. Gitpod
+
+- Gitpod was the Integrated Development Environment used to develop the Website.
+
+5. Balsamiq
 
 - Balsamiq was used to create the wireframes during the design process.
 
-5. API 
+6. API 
 - db.json file hosted on https://my-json-server.typicode.com/Federvgh%20/MS2-Quiz-Game/ to request the data.
 
-6.  Chrome DevOps Tools
+7.  Chrome DevOps Tools
 
 - Chrome DevOps Tools was used to check elements and help debug issues with the site layout and try different CSS styles.
 
@@ -176,8 +181,10 @@ to load automatically when the game.html page is loaded as you can see in this s
 
 ![alt text](assets/images/GETApi.jpg)
 
-Form validation is required to ensure the correct
-inputs are taken and that all fields are required.
+- I also had this error "'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)." 
+This is caused because i started my project using VsCode, and although the error did not afect the outcome
+of the project i added this line at the top of my js scripts, "/*jshint esversion: 6 */" to remove the errors.
+
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -197,6 +204,7 @@ The background with the falling numbers and the title "Number Quiz" introduce th
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Opera, and Safari browsers.
 - The website was viewed on different devices such as Desktop, Laptops, Android phones, iPhone 6, and iPhone x, and I used http://www.responsinator.com/ as well to check responsiveness.
 - I asked friends and family members to review the site and give me feedback about the user experience.
+- Form validation is required to ensure the correct inputs are taken and that all fields are required.
 
 #### Performace Test
 [Desktop Lighthouse](assets/images/Mockups/Lighthouse-Desktop.jpg)<br>
@@ -232,7 +240,7 @@ The project was deployed to GitHub with the following steps:
 4. The general color of the site was to bright and after a few minutes it gets annoying according to user experience so I decided to change the background to something easier on the eyes.
 5. The correct answer are displayed horizontally on the desktop, but it did not look ok on smaller devices so I used media queries to display them vertically.
 6. I tried to add more questions to the DB but it has a limit of 30. 
-7. 
+ 
 
 ## Credits
 
