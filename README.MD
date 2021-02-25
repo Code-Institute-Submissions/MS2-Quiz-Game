@@ -163,6 +163,18 @@ I used W3C HTML Validator and W3C CSS Validator Services to ensure there were no
 
 - [W3C HTML Validation](https://validator.w3.org/)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- [Jshint](https://jshint.com/)
+
+## Results
+
+![alt text](assets/images/html-validation.jpg "Html validation")
+![alt text](assets/images/css-validation2.jpg "CSS validation")
+![alt text](assets/images/gamejs.jpg "javascript validation")
+
+- The only error is from javascript but its unavoidable, since i use the GETApi function 
+to load automatically when the game.html page is loaded as you can see in this screenshot.
+
+![alt text](assets/images/GETApi.jpg)
 
 Form validation is required to ensure the correct
 inputs are taken and that all fields are required.

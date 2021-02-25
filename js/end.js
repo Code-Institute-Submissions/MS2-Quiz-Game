@@ -4,13 +4,12 @@ const mostRecentScore = localStorage.getItem('mostRecentScore');
 const finalScore = document.getElementById('finalScore');
 const highScores =  JSON.parse(localStorage.getItem('highScores')) || [];
 
-const MAX_HIGH_SCORES = 5; 
-
+let saveHighScore = {};
 
 finalScore.innerText = mostRecentScore;
 
 username.addEventListener("keyup", () =>{
-    saveScoreBtn.disabled = !username.value
+    saveScoreBtn.disabled = !username.value;
 });
 
 saveHighScore = (e) =>{
