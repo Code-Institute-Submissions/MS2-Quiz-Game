@@ -40,11 +40,13 @@ numbers and thought of combining that with trivia might work and that's how this
     4. As a user, I want to be able to check the top scores.
     5. As a user, I don't want the right answer to be displayed.
 
-- ## Design ### Structure
+- ## Design 
+
+   ### Structure
 
     - The site has 5 pages, "Home", "countdown", "game" "end" and "Top Scores".
     - The design is simple with dark colors with the purpose of being easy tor read, medium size letters. I used a background with falling numbers to give it a clear purpose or relation towards numbers.
-    - Originally the design was with light colors, but after a few users experiences I realize it got tiring for the eyes, so I adopted a darker
+    - Originally the design was with light colors, but after a few users experiences I realize it got tiring for the eyes, so I adopted a darker theme.
 
   - #### Font
 
@@ -62,7 +64,7 @@ numbers and thought of combining that with trivia might work and that's how this
       
   - #### Imagery
 
-    - There is only one image I used for the background, on the countdown page is the original image and in the rest of the website,
+    - There is only one image I used for the background, on the countdown page is the original image and in the rest of the website
      I remove some of the falling numbers from the center and replace it with a black background so the questions can be read properly. 
      The image was downloaded from this site https://wallpapersafari.com/w/CXIMrz
 
@@ -76,7 +78,7 @@ I designed the Home page to be really simple and copied the most common model fo
 ### Game Page <br>
 [Game Page Wireframe](assets/images/Mockups/Game1.jpg)<br>
 The game page provides a random trivia fact about a number and gives 4 choices to select from with your
-current score above it, its pretty straight forward like and other quiz, it's centered and easy to read,
+current score above it, its pretty straight forward like any other quiz, it's centered and easy to read,
 the background image had some falling numbers in the center that were removed to avoid creating any difficulty
 in reading the questions.
 
@@ -183,7 +185,7 @@ When you hover over a button it shows you a pointer.
 
 ## Testing
 
-I used W3C HTML Validator and W3C CSS Validator Services to ensure there were no syntax errors in the project.
+I used W3C HTML Validator and W3C CSS Validator Services as well as jshint to ensure there were no syntax errors in the project.
 
 - [W3C HTML Validation](https://validator.w3.org/)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
@@ -223,15 +225,13 @@ either play or just check if somebody has beaten their score.
 ### Further Testing
 
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Opera, and Safari browsers. All the browsers worked as expected.
-- The website was viewed on different devices such as Desktop, Laptops, Android phones, iPhone 6, and iPhone x, etc, and I used http://www.responsinator.com/ 
+- The website was viewed on different devices such as Desktops, Laptops, Android phones, iPhone 6, and iPhone x, etc, and I used http://www.responsinator.com/ 
 as well to check responsiveness. I had issues with small devices, I had to use media queries to fix it, one of them was that the answers were
 displayed horizontally on the mobiles and I needed them to be vertical.
 - I asked friends and family members to review the site and give me feedback about the user experience, most of the feedback was good, but the most common 
 denominator was the background been too bright and making it harder to focus on the questions. I addressed this issue by changing the background with an image 
 that not only had a black background but also numbers.
-- Form validation is required to ensure the correct inputs are taken and that all fields are required, the only field required here is the name,
- but then again it's a common feature among games.
-
+- Form validation is required to ensure the correct inputs are taken and that all fields are required, the only field required here is the name.
 
 #### Performace Test
 [Desktop Lighthouse](assets/images/Mockups/Lighthouse-Desktop.jpg)<br>
@@ -247,7 +247,7 @@ The project was deployed to GitHub with the following steps:
 3. Select Settings and Scroll down until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com/Federvgh/MS2-Quiz-Game/index.html) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://federvgh.github.io/MS2-Quiz-Game/) in the "GitHub Pages" section.
 
 ### Making a Local Clone
 
@@ -276,7 +276,7 @@ The project was deployed to GitHub with the following steps:
   I just added a redirect function with a timer and modified the colors.
 - I used excerpts to develop the quiz format from https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx
 - My Mentor Antonio Rodriguez was really helpful and showed me how to create my own API.
-- The slack community was really helpful, I found a lot of solutions to simply issues that were already posted.
+- The slack community was really helpful, I found a lot of solutions to simple issues that were already posted.
 - Code institute support helped me a lot with very specific details and issues that I had.
 - I took a lot of information and ideas from YouTube channels from Brad Traversy Media and Web Dev Simplified.
 - I used the data to create my own API from https://rapidapi.com/marketplace, i copied the trivia facts and added the possible answers.
