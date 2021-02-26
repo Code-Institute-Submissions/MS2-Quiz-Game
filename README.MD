@@ -29,7 +29,8 @@ numbers and thought of combining that with trivia might work and thats how this 
 
     1. As the Owner, I want the game to be entertaining and give the user the feeling to keep playing.
     2. As the Owner, I want the game to give some useful trivia about numbers. 
-    3. As the Owner, I want this game to show my new skills with javascript.
+    3. As the owner, I want the user to get courious about the "why" of the answers.  
+    4. As the Owner, I want this game to show my new skills with javascript.
 
 - ### User stories
 
@@ -76,19 +77,19 @@ I designed the Home page to be really simple and copied the most common model fo
  "Play" and "Scores", the idea was to keep it simple and intuitive. 
 
 ### Game Page <br>
-[Works Page Wireframe](assets/images/Mockups/Game1.jpg)<br>
+[Game Page Wireframe](assets/images/Mockups/Game1.jpg)<br>
 The game page provides a random trivia quote about a number and gives 4 choices to select from with your
 current score above the questions, its pretty straight forward like and other quiz, its centered and easy to read,
 the background image had some falling numbers in the center that were removed to avoid creating any difficulty
 in reading the questions.
 
 ### End Page
-[Home Page Wireframe](assets/images/Mockups/End1.jpg)<br>
+[End Page Wireframe](assets/images/Mockups/End1.jpg)<br>
 The End page has an input to save the score, a "Save" button, the option to play again and in case you want
 to check the scores directly, the score button.  
 
 ### Top Scores<br>
-[Works Page Wireframe](assets/images/Mockups/TopScores1.jpg)<br>
+[Top Scores Page Wireframe](assets/images/Mockups/TopScores1.jpg)<br>
 The TopScores shows you the top 5 scores saved and the button to go back to the home page.
 
 #### Modifications to original Design
@@ -254,13 +255,13 @@ The project was deployed to GitHub with the following steps:
 3. I had issues with the background interfering with the questions displayed so I removed some fragments from the middle.
 4. The general color of the site was to bright and after a few minutes it gets annoying according to user experience so I decided to change the background to something easier on the eyes.
 5. The correct answer are displayed horizontally on the desktop, but it did not look ok on smaller devices so I used media queries to display them vertically.
-6. I tried to add more questions to the DB but it has a limit of 30. 
+6. I tried to add more questions to the DB but it has a limit of 30, but for the purposes of this project i think its enough.
  
 
 ## Credits
 
 - The hover effect on the buttons was taken from https://ianlunn.github.io/Hover/
-- The countdown page I took from a course I bought in Udemy https://www.udemy.com/course/50-projects-50-days/
+- The countdown page I took from a course by Brad Traversy in Udemy https://www.udemy.com/course/50-projects-50-days/
   I just added a redirect function with a timer and modified the colors.
 - I used excerpts to develop the quiz format from https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx
 - My Mentor Antonio Rodriguez was really helpful and showed me how to create my own API.

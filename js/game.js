@@ -59,7 +59,7 @@ const startGame = () => {
       
          return window.location.assign('end.html');
     }
-    //Redirect to End page when there ae no more questions //
+    //Redirect to End page when there are no more questions //
 
     //select random question//
     
