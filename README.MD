@@ -75,7 +75,9 @@ I designed the Home page to be really simple and copied the most common model fo
 ### Game Page <br>
 [Works Page Wireframe](assets/images/Mockups/Game1.jpg)<br>
 The game page provides a random trivia quote about a number and gives 4 choices to select from with your
-current score above the quote, its pretty straight forward like and other quiz.
+current score above the questions, its pretty straight forward like and other quiz, its centered and easy to read,
+the background image had some falling numbers in the center that were removed to avoid creating any difficulty
+in reading the questions.
 
 ### End Page
 [Home Page Wireframe](assets/images/Mockups/End1.jpg)<br>
@@ -93,6 +95,9 @@ I saw some similar projects using an API like https://opentdb.com/ or https://ra
 I decided to use the numbers API found on the site mentioned, while I was testing to see if it would work I had issues
 with HTTPS requests, since there was no support and after a searching and not finding a solution I decided to go another way and 
 create my own API with this site https://my-json-server.typicode.com and copy the trivia questions I found on the Rapid API site.
+Although it has some limitations its an easy way to create your own API, there is no registration or software needed for it to work.
+To create it you can follow the instructions on the site:
+https://my-json-server.typicode.com/
 
 
 ## Features
@@ -202,10 +207,16 @@ either play or just check if somebody has beaten their score.
 
 ### Further Testing
 
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Opera, and Safari browsers.
-- The website was viewed on different devices such as Desktop, Laptops, Android phones, iPhone 6, and iPhone x, and I used http://www.responsinator.com/ as well to check responsiveness.
-- I asked friends and family members to review the site and give me feedback about the user experience.
-- Form validation is required to ensure the correct inputs are taken and that all fields are required.
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Opera, and Safari browsers. All the browsers worked as expected,
+I did not need to adjust or style for any browser. 
+- The website was viewed on different devices such as Desktop, Laptops, Android phones, iPhone 6, and iPhone x, etc, and I used http://www.responsinator.com/ 
+as well to check responsiveness. I had issues with small devices, i had to use media queries to fix it.
+- I asked friends and family members to review the site and give me feedback about the user experience, most of feedback was good, 
+but most common denominator was the background been too bright and making it harder to focus on the questions. I addresed this issue by
+changing the backgound with an image that not only had a black background but also numbers.
+- Form validation is required to ensure the correct inputs are taken and that all fields are required, the only field required here is the name,
+but then again its a common feature among games.
+
 
 #### Performace Test
 [Desktop Lighthouse](assets/images/Mockups/Lighthouse-Desktop.jpg)<br>
