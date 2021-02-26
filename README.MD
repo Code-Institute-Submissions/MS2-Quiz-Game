@@ -18,7 +18,10 @@ Live Demo [here](https://federvgh.github.io/MS2-Quiz-Game/).
 
 ## Overview
 
-The idea of this project was to create a fun number trivia quiz, easy to use, with a smooth design.
+The idea of this project was to create a fun a quiz, easy to use, with a smooth design. There are a lot of quizes on the web
+and i wanted to do something a bit different, a music quiz was one of my first ideas but after doing some research i realize 
+i did not have the skills to do it the way i wanted so i decided to go for something simpler but fun as well. I have always liked 
+numbers and thought of combining that with trivia might work and thats how this project came to be. 
 
 ## UX
 
@@ -62,7 +65,7 @@ The idea of this project was to create a fun number trivia quiz, easy to use, wi
 
       
   - #### Imagery
-    - - There is only one image I used for the background, on the countdown page is the original image and in the rest of the website, I remove some 
+    - There is only one image I used for the background, on the countdown page is the original image and in the rest of the website, I remove some 
     of the falling numbers from the center and replace it with a black background so the questions can be read properly.
 
 ### Balsamiq Wireframes
