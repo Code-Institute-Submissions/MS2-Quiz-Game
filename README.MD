@@ -176,7 +176,7 @@ I used W3C HTML Validator and W3C CSS Validator Services to ensure there were no
 ![alt text](assets/images/css-validation2.jpg "CSS validation")
 ![alt text](assets/images/gamejs.jpg "javascript validation")
 
-- The only error is from javascript but its unavoidable, since i use the GETApi function 
+- The only error is from javascript but its unavoidable, since i use the GetAPI function 
 to load automatically when the game.html page is loaded as you can see in this screenshot.
 
 ![alt text](assets/images/GETApi.jpg)
@@ -190,14 +190,15 @@ of the project i added this line at the top of my js scripts, "/*jshint esversio
 
 - #### First Time and Returning Visitor
 
-1.  As a First Time Visitor, I want to easily understand the main purpose of the site.
-The background with the falling numbers and the title "Number Quiz" introduce the idea.
-2. The Play and score buttons indicate clearly its a game followed, but the Get Ready countdown when you click play.
+1.  As a First Time Visitor, I want to easily understand the main purpose of the site, I used the title "Number Quiz" 
+with the buttons "Play" and "Scores" to achieve this, and also added the background with the falling numbers.
+2. After you click "Play" it will show you the "Get Ready" countdown, this feature was added simply to mimic the way most games work,
+to give the user a few seconds to get ready for the game.
 3. After you play you can save your score and it will automatically redirect you to the main page where you can check the scores or play again.
+This was done with the idea that you can check your scores and try to beat them.
+4.  As a returning visitor, you can play again or check the scores, this pretty common on most games. The user can 
+either play or just check if somebody has beaten their score.
 
-2.  As a returning visitor, you can play again or check the scores.
-
-1.  On the main page you can look at the scores or play again.
 
 ### Further Testing
 
